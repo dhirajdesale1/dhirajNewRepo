@@ -8,7 +8,7 @@ public class OpenChrome {
 		
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 
-			new ChromeDriver();
+			new ChromeDriver();//open a new browser
 	}
 
 }
